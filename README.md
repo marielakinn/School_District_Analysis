@@ -1,9 +1,9 @@
 # School District Analysis
 
 ## Project Overview
-In this project we helped Maria, the Chief Data Scientist for a shchool district, to clean, sort, and analyze two data sets containing information of different schools and their students. 
+In this project we helped Maria, the Chief Data Scientist for a school district, to clean, sort, and analyze two data sets containing information of different schools and their students. 
 
-The analysis consited of:
+The analysis consisted of:
 
 - Generating a school district summary (number of students, number of schools, total budget, score averages, passing percentages)
 - Generating a school summary (student count per school, budget per student, score averages per school, passing percentages per school)
@@ -38,7 +38,7 @@ The purpose of this analysis is to replace the math and reading scores for Thoma
 
   Most of the averages for Thomas High School were impacted. When we replaced Thomas High School's ninth graders grades with NaNs, the % overall passing rate dropped significantly from 90.95% to 65.08%. This is because we were counting all students in that high school, including ninth graders, but the total number of studios passing the reading or math test was excluding ninth graders.
 
-  Please see below screenshot of the results prior to replacing data for nine graders:
+  Please see below screenshot of the results prior to replacing data for ninth graders:
   
   
   ![](Resources/School_summary_original.png)
@@ -80,7 +80,7 @@ The purpose of this analysis is to replace the math and reading scores for Thoma
 
   - Scores by school size
     
-    The scores by school size remained the same. The metrics for large schools are underperforming medium and small schools:
+    The scores by school size remained the same. Data shows that large schools are not performing as good as medium and small schools:
     
     
     ![](Resources/School_size_nan.PNG)
@@ -95,5 +95,5 @@ The purpose of this analysis is to replace the math and reading scores for Thoma
 
 ## Summary
 
-In summary, four changes I found by raplacing ninth graders data for Thomas High School were: count of total students, which decreased from 39,170 to 38,709; the change in the average math score in the district summary, which decreased from 79 to 78; the decrease in in overall passing rate in the school summary, which decreased from 91% to 65%; and the "nan" values to Thomas High School ninth graders in the math and reading scores by grade.
+In summary, four changes I found by replacing ninth graders data for Thomas High School were: count of total students, which decreased from 39,170 to 38,709; the change in the average math score in the district summary, which decreased from 79 to 78; the decrease in overall passing rate in the school summary, which decreased from 91% to 65%; and the "nan" values to Thomas High School ninth graders in the math and reading scores by grade.
 
