@@ -23,31 +23,36 @@ The purpose of this analysis is to replace the math and reading scores for Thoma
 
 - How is the district summary affected?
 
-  The results for the district summary
+  The student count decreased from 39,170 to 38,709, and the average math acore slightly dropped from 79.0 to 78.0.
+  Please see below screenshot of the results prior to replacing data for nine graders:
 
 ![](Resources/District_analysis_original.PNG)
+
+
+Please see below screenshot of the results after replacing data for nine graders:
 
 ![](Resources/District_analysis_nan.PNG)
 
 
 - How is the school summary affected?
 
-  ![](Resources/School_summary_original.PNG)
+Most of the averages for Thomas High School were impacted. Despite the change in the averages is small, the % overall passing dropped from 90.95% to 90.63%
+
+Please see below screenshot of the results prior to replacing data for nine graders:
+  ![](Resources/School_summary_original.png)
+
+Please see below screenshot of the results after replacing data for nine graders:
+  ![](Resources/School_summary_nan.png)
 
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-
-  Talk about top5 and bottom 5
+  Because we excluded the grades from 9th graders, Thomas High School remained in the #2 position.However, their % overall average slightly decrease from 90.95 to 90.63.
   
 - How does replacing the ninth-grade scores affect the following:
   - Math and reading scores by grade
     
-    ![](Resources/mathbygrade_original.PNG)
+    ![](Resources/mathbygrade_nan.png)
     
-    ![](Resources/mathbygrade_nan.PNG)
-    
-    ![](Resources/readingbygrade_original.PNG)
-    
-    ![](Resources/readingbygrade_nan.PNG)
+    ![](Resources/readingbygrade_nan.png)
     
   - Scores by school spending
     
